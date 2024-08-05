@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 180, 234);
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    background: rgb(216, 218, 98);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 75%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.course-box {
+    background: rgb(132, 192, 193);
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+.course-box h2,
+.course-box h4 {
+    margin: 0 0 10px;
+}
+
+button.btn1,
+button.btn2 {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn1:hover,
+button.btn2:hover {
+    background-color: green;
+}
+
+#course {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.za {
+    text-align: center;
+}
+
+#container {
+    margin-top: 20px;
+}
+.y{
+    text-align: center;
+    align-content: center;
+}
+.a{
+    background-color: rgb(234, 180, 225);
+}

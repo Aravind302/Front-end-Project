@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment</title>
+    <link rel="stylesheet" href="Student.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Codegnan Student Enrollment form </h1>
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required>
+        <br><br>
+        <label for="phoneNumber">Mobile Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" required>
+        <br><br>
+        <label for="studentEmail">Student Email:</label>
+        <input type="email" id="studentEmail" name="studentEmail" required>
+
+        <div class="course-box" id="Python">
+            <h2>Python Full Stack Training</h2>
+            <h4>Course Name: Python Full Stack</h4>
+            <h4>Course Fee: Rs. 36000/-</h4>
+            <h4>Duration: 100 Days</h4>
+            <br>
+            <label>
+                <input type="radio" name="pythonSkills" value="5000"> Soft Skills - 5000/-
+            </label>
+            <br>
+            <h3><button class="btn1" type="button" onclick="storevalue('Python Full Stack', 36000, 'pythonSkills')">Add Course</button></h3>
+        </div>
+
+        <div class="course-box" id="Java">
+            <h2>Java Full Stack Training</h2>
+            <h4>Course Name: Java Full Stack</h4>
+            <h4>Course Fee: Rs. 38000/-</h4>
+            <h4>Duration: 100 Days</h4>
+            <br>
+            <label>
+                <input type="radio" name="javaSkills" value="5000"> Soft Skills - 5000/-
+            </label>
+            <br>
+            <h3><button class="btn1" type="button" onclick="storevalue('Java Full Stack', 38000, 'javaSkills')">Add Course</button></h3>
+        </div>
+
+        <div class="course-box" id="Data Science">
+            <h2>Data Science With Python Training</h2>
+            <h4>Course Name: Data Science With Python</h4>
+            <h4>Course Fee: Rs. 46000/-</h4>
+            <h4>Duration: 100 Days</h4>
+            <br>
+            <label>
+                <input type="radio" name="dataScienceSkills" value="5000"> Soft Skills - 5000/-
+            </label>
+            <br>
+            <h3><button class="btn1" type="button" onclick="storevalue('Data Science With Python', 46000, 'dataScienceSkills')">Add Course</button></h3>
+        </div>
+    </div>
+    <div class="a">
+
+    <div class="w" id="course">
+        <div class="z">
+            <div class="za">
+                <h2> Student Course Structure</h2>
+            </div>
+        </div>
+        <div class="za">
+            <button class="btn2" onclick="addnew()">Click me to show Student Course fee details</button>
+        </div>
+        <div class="y" id="container"></div>
+    </div>
+    </div>
+
+    <script src="Student.js"></script>
+</body>
+</html>
